@@ -6,12 +6,14 @@ public class News {
     private String name;
     private String content;
     private Date date;
+    private int idcat;
 
-    public News(int id_news, String name, String content, Date date) {
+    public News(int id_news, String name, String content, Date date, int idcat) {
         this.id_news = id_news;
         this.name = name;
         this.content = content;
         this.date = date;
+        this.idcat = idcat;
     }
 
     public int getId_news() {
@@ -44,5 +46,13 @@ public class News {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public int getIdcat() {
+        return idcat;
+    }
+
+    public void setIdcat(int idcat) {
+        this.idcat = idcat;
     }
 }
