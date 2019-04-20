@@ -1,4 +1,4 @@
-package com.webnews.connection;
+/*package com.webnews.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,4 +23,4 @@ public class MySQLConn {
         Connection conn = DriverManager.getConnection(connectionURL, userName, password);
         return conn;
     }
-}
+}*/

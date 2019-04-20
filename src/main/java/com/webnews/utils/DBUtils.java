@@ -1,4 +1,4 @@
-package com.webnews.utils;
+/*package com.webnews.utils;
 
 import com.webnews.entity.News;
 
@@ -94,4 +94,4 @@ public class DBUtils {
         pstm.setInt(1, id);
         pstm.executeUpdate();
     }
-}
+}*/

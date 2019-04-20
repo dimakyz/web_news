@@ -1,5 +1,5 @@
 package com.webnews.connection;
-
+/*
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -19,4 +19,4 @@ public class ConnectionUtils {
         } catch (Exception e) {
         }
     }
-}
+}*/

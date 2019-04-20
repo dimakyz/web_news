@@ -1,4 +1,4 @@
-package com.webnews.utils;
+/*package com.webnews.utils;
 
 import javax.servlet.ServletRequest;
 import java.sql.Connection;
@@ -15,4 +15,4 @@ public class MyUtils {
         Connection conn = (Connection) request.getAttribute(ATT_NAME_CONNECTION);
         return conn;
     }
-}
+}*/
