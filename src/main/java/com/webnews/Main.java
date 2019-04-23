@@ -13,7 +13,7 @@ public class Main {
         News moscow = new News("Moscow", "redsa ijddapoasdsack o asdpk a", new java.sql.Timestamp(System.currentTimeMillis()));
         moscow.setCategory(category);
         category.addNews(moscow);
-        News piter = new News("Ford", "qwtqaf  sfaasfalaasd asfck", new java.sql.Timestamp(System.currentTimeMillis()));
+        News piter = new News("Piter", "qwtqaf  sfaasfalaasd asfck", new java.sql.Timestamp(System.currentTimeMillis()));
         piter.setCategory(category);
         category.addNews(piter);
         allService.updateCat(category);
